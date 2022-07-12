@@ -1,0 +1,50 @@
+.footerText:hover {
+    color: blue;
+}
+
+.footerText :hover h4 {
+    color: blue;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#main, #opinionTwitter {
+    width: 100%;
+    display: flex;
+  }
+  
+  #main > div {
+     -ms-flex: 1;  
+     flex: 1; 
+  }
+
+  #footer3 {
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: 30px; */
+    /* text-align: center; */
+  }
+  
+   .flex-item, .opItem {
+    padding: 10px;
+  } 
+
+
+  @media (max-width: 2000px) {
+    .flex-item{
+      flex: 100%;
+    }
+  }
+
+  .firstColumn, .secondColumn{
+    display: inline-block;
+  }
+
+  #opinionTwitter{
+    -ms-flex: 1;  
+    flex: 1; 
+  }

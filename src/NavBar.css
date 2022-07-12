@@ -1,0 +1,10 @@
+
+#navbarMain, #navbarTop {
+    width: 100%; 
+     display: flex;
+  } 
+
+  .navbar-flex-item {
+    padding-left: 10px;
+  } 
+

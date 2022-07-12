@@ -1,0 +1,46 @@
+#homepageMain{
+    width: 100%; 
+    display: flex;
+}
+
+.homepageItem {
+    padding: 10px;
+  } 
+
+
+  #homepageMain > div {
+    -ms-flex: 1;  
+    flex: 1; 
+ }  
+
+ #homeSlideFlw, #flw{
+    width: 100%; 
+    display: flex; 
+ }
+
+ .item, .flwItem{
+    padding: 10px;
+ }
+
+ #homeSlideFlw, #flw > div {
+    -ms-flex: 1;  
+    flex: 1; 
+ } 
+
+  #flw{
+ 
+   display: flex; 
+}
+
+
+
+ 
+a:hover {
+   color: blue;
+}
+
+a:hover h4 {
+   color: blue;
+}
+
+
